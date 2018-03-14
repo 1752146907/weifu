@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>解绑账号</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bing_page">
+	<div class="main_box">
+		<header>
+			<img src="images/logo_01.png">
+		</header>
+		<div class="text_info">
+			<h2>解绑787878账号</h2>
+			<div class="text_info_box">您的福特网账号<span>7872837823</span>将于ebay账号<span>232323-admin</span>解除绑定</div>
+			<button class="yes">确定解绑</button>
+		</div>
+	</div>
+	<!-- 弹框 -->
+	<div class="bing_page_mag">
+		<div class="bing_page_mag_title"><img src="images/i.png">是否与1212账号解除绑定？</div>
+		<button class="yes">确定</button>
+		<button class="no">取消</button>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(".bing_page .text_info button").click(function(){
+			$(".bing_page .bing_page_mag").show();
+		});
+		$(".bing_page_mag .no").click(function(){
+			$(".bing_page_mag").hide()
+		})
+	</script>
+</body>
+</html>
