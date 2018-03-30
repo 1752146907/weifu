@@ -292,12 +292,13 @@ a{
 	/*float: left;*/
 	/*box-sizing: border-box;*/
 	/*width: 100%;*/
-	
-	overflow: hidden;
-	/*overflow-y: scroll;*/
+	/*padding: 10px 0px;*/
+	box-sizing: border-box;
+	/*overflow: hidden;*/
+	overflow-y: scroll;
 }
 .water_box .right_info .time_item{
-	padding-top: 52px;
+	padding: 52px 0px 0px 20px;
 	font-size: 14px;
 	color: #333;
 	overflow: hidden;
@@ -335,6 +336,7 @@ a{
 .water_box .right_info .report_form{
 	/*min-width: 1020px;*/
 	/*width: 100%;*/
+	margin: 0px 20px;
 	border-top: 1px solid #ececec;
 	border-left: 1px solid #ececec;
 	border-right: 1px solid #ececec
@@ -352,6 +354,13 @@ a{
 	text-align: center;
 	padding: 17px 0px;
 	color: #333333
+}
+.water_box .right_info .grant_form_title li{
+	width: 386px;
+}
+.water_box .right_info .grant_form_item li .data{
+	width: 386px;    
+	padding-left: 8px;
 }
 .water_box .right_info .report_form_item li{
 	overflow: hidden;
@@ -376,8 +385,14 @@ a{
 	color: #222222;
 	font-size: 12px;
 	margin-top: 20px;
+	margin-right: 20px;
 	margin-bottom: 20px;
 	text-align: right;
+}
+
+.water_box .right_info .sun_nember{
+	padding-right: 14px;
+	line-height: 18px;
 }
 .water_box .right_info .paging span{
 	margin: 0px 14px;
@@ -406,7 +421,7 @@ a{
 }
 .water_page .modify_box{
 	width: 306px;
-	height: 266px;
+	height: 284px;;
 	box-sizing: border-box;
 	background: #fff;
 	position: fixed;
@@ -419,6 +434,11 @@ a{
 	padding: 0px 35px 35px 35px;
 	overflow: hidden;
 	display: none;
+}
+.water_page .modify_box .tis{
+	height: 18px;
+	font-size: 12px;
+	color: red;
 }
 .water_page .modify_box .modify_box_title{
 	font-size: 13px;
